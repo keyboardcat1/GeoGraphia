@@ -1,0 +1,19 @@
+{
+  "dimensions": {
+    "overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "geographia:chunk_gen",
+        "biome_source": {
+          "type": "fixed",
+          "biome": "minecraft:sunflower_plains"
+        },
+        "settings": {
+          "base_height": 63,
+          "vertical_scale": 1,
+          "horizontal_scale": 1
+        }
+      }
+    }
+  }
+}
